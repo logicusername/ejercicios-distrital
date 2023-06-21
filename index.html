@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles-ejercicios.css">
+    <script src="main.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTCLT66PXK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KTCLT66PXK');
+    </script>
+</head>
+<body>
+    <div class="container_actividad">
+        <!-- <div class = "logo"></div> -->
+         <nav class="nav_main">
+            <ul class="nav_menu">
+                <li>
+                    <a href="./index.html">ACTIVIDAD 2</a>
+                </li>
+                <li>
+                    <a href="./actividad3.html" target="_blank">ACTIVIDAD 3</a>
+                </li>
+                <li>
+                    <a href="./actividad4.  html">ACTIVIDAD 4</a>
+                </li>
+                <li>
+                    <a href="./actividad5.html">ACTIVIDAD 5</a>
+                </li>
+            </ul>			
+      </nav>		
+    </div>
+    <div class="container_ejercicios">
+        <!-- -------CONVETIR-------------- -->
+    <label>1. escribe el numero a convertir</label><br>
+    <input type="text" id="txtnumero" placeholder="digite un numero"><br>
+    <button onclick="binario()">decimal a binario</button>
+    <button onclick="octal()">decimal a octal</button>
+    <button onclick="hexadecimal()">decimal a hexadecimal</button><br>
+    <label> resultado:</label><br>
+    <label id="txtresultado" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+    <!-- ----------binarios----------- -->
+    <label>2. suma de binarios:</label><br>
+    <label> binario1:</label>
+    <input type="text" id="txtbinario1"><br>
+    <label> binario2:</label>
+    <input type="text" id="txtbinario2"><br>
+    <button onclick="sumaBinario()">sumar</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoBinario" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+    <!-- ---------------octales----------- -->
+    <label>3. resta de octales:</label><br>
+    <label> primer numero:</label>
+    <input type="text" id="txtoctal1"><br>
+    <label> segundo numero:</label>
+    <input type="text" id="txtoctal2"><br>
+    <button onclick="restaOctal()">restar</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoRestaOctal" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+<!--     
+    <label >tipos de datos:</label><br>
+    <label >dato :</label>
+    <input id="datoInput"><br>
+    <button onclick="obtenerTipoDato()">tipo de dato</button><br>
+    <label >resultado:</label><br>
+    <label id="resultadoDato"></label><br> -->
+    <!-- ---------------saludo--------------------  -->
+    <label> 4. por favor digite su nombre:</label>
+    <input id="nombreUsuario"><br>
+    <button onclick="mostrarNombre()">saludar</button><br>
+    <label id="saludo" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+    <!-- -------perimetro rectangulo------------- -->
+    <label> 5. calculo perimetro de rectangulo:</label><br>
+    <label>ingrese altura rectangulo:</label>
+    <input id="alturaRectangulo"><br>
+    <label>ingrese base rectangulo:</label>
+    <input id="baseRectangulo"><br>
+    <button onclick="calculoPerimetroRectangulo()">calcular perimetro</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoPerimetroRectangulo" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+    <!-- -----calculando hipotenusa------------- -->
+    <label>6. hipotenusa</label><br>
+    <label>ingrese cateto a:</label>
+    <input id="catetoA"><br>
+    <label>ingrese cateto b:</label>
+    <input id="catetoB"><br>
+    <button onclick="calculoHipotenusaRectangulo()">calcular hipotenusa</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoHipotenusaRectangulo" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br> <br>
+    <!-- ---------calculo impar/par------------- -->
+    <label>7. par/impar:</label><br>
+    <label>ingrese numero:</label>
+    <input id="numeroPar"><br>
+    <button onclick="calculoPar()">comprobar par/impar</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoPar" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+    <!-- --------------mayor / menor------------- -->
+    <label>8. mayor o menor</label><br>
+    <label>ingrese edad:</label>
+    <input id="edad"><br>
+    <button onclick="calculoEdad()">Comprobar Mayor/ Menor de edad</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoEdad" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+    <!-- -------estudiantes---------------->
+    <label>9. estudiantes</label><br>
+    <label>ingrese numero de estudiantes:</label>
+    <input id="estudiantes"><br>
+    <button onclick="calculoEstudiantes()">Calcular pasajes</button><br>
+    <label>resultado:</label><br>
+    <label id="resultadoPasaje" style="background-color: rgb(125, 129, 253) ;color: white;"></label><br><br>
+     <!-- -------calcular factorial---------------->
+     <label>10. factorial</label><br>
+     <label>ingrese numero para calcular factorial:</label>
+     <input id="factorial"><br>
+     <button onclick="calculoFactorial()">Calcular Factorial</button><br>
+     <label>resultado:</label><br>
+     <label id="resultadoFactorial" style="background-color: rgb(125, 129, 253) ;color: white;"></label>
+    </div>
+</body>
+</html>

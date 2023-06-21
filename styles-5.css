@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.crear-repositorio {
+    width: 750px;
+    height: 550px;
+}
+.img-flores {
+    width: 400px;
+    height: 300px;
+}
+body {
+    background-color: rgb(128, 128, 128);
+}
+p {
+    color: white;
+}
+a {
+    color: white;
+}
+.container_actividad {
+    top: 0;
+    /* background-color: white; */
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(128, 128, 128);
+}
+.nav_menu {
+    padding: 10px;
+    justify-content: center; 
+    display: flex;
+}
+.actividades {
+    margin-top: -40px;
+}
+.nav_menu li {
+    margin-left: 40px;
+}
+.container-imagen {
+    display: flex;
+}
+.container-videos {
+    margin-top: 80px;
+    display: flex;
+}
+.primer-video {
+    margin-left: 20px;
+}
+.segundo-video {
+    margin-left: 40px;
+}
+.container-videos2 {
+    margin-top: 40px;
+    display: flex;
+}
+.tercer-video {
+    margin-left: 20px;
+}
+.imagen-flores {
+    margin-left: 40px;
+}
