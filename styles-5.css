@@ -62,3 +62,14 @@ a {
 .imagen-flores {
     margin-left: 40px;
 }
+.analytics {
+    margin-left: 40px;
+}
+.parrafo-analytics {
+    color: white;
+}
+.video-analytics {
+    margin-top: -40px;
+    width: 750px;
+    height: 550px;
+}
