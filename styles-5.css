@@ -2,74 +2,59 @@
     margin: 0;
     padding: 0;
   }
-.crear-repositorio {
-    width: 750px;
-    height: 550px;
-}
 .img-flores {
     width: 400px;
     height: 300px;
 }
 body {
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(227, 239, 249);
 }
 p {
-    color: white;
+    color: black;
 }
 a {
-    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.contenedores {
+    display: flex;
+}
+.titulo {
+    background-color: white;
+    padding: 30px;
+    background-color: white;
+
 }
 .container_actividad {
     top: 0;
     /* background-color: white; */
-    position: fixed;
     align-items: center;
-    width: 100%;
-    z-index: 1;
-    background-color: rgb(128, 128, 128);
+    /* width: 100%; */
+    /* z-index: 1; */
+    background-color: white;
+    height: 2000px;
 }
 .nav_menu {
-    padding: 10px;
-    justify-content: center; 
-    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin-right: 10px; 
+    /* display: flex; */
 }
 .actividades {
-    margin-top: -40px;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 .nav_menu li {
     margin-left: 40px;
+    margin: 20px;
+    margin-right: 10px;
+    
 }
 .container-imagen {
     display: flex;
 }
-.container-videos {
-    margin-top: 80px;
-    display: flex;
-}
-.primer-video {
-    margin-left: 20px;
-}
-.segundo-video {
-    margin-left: 40px;
-}
-.container-videos2 {
-    margin-top: 40px;
-    display: flex;
-}
-.tercer-video {
-    margin-left: 20px;
-}
-.imagen-flores {
-    margin-left: 40px;
-}
-.analytics {
-    margin-left: 40px;
-}
-.parrafo-analytics {
-    color: white;
-}
-.video-analytics {
-    margin-top: -40px;
-    width: 750px;
-    height: 550px;
+.lista-desplegable-node {
+    margin-left: 60px;
 }

@@ -5,20 +5,26 @@
 body {
     background-color: rgb(227, 239, 249);
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 .container_actividad {
     top: 0;
     /* background-color: white; */
-    position: fixed;
+    /* position: fixed; */
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     z-index: 1;
+    background-color: white;
+    height: 1000px;
 }
 .nav_menu {
-    padding: 10px;
-    background-color: white;
+    padding: 20px;
     justify-content: center; 
-    display: flex;
-    margin-bottom: 0px;
+    /* display: flex;   */
 }
 .container_ejercicios {
     margin-top: 60px;
@@ -26,5 +32,14 @@ body {
 }
 .nav_menu li {
     margin-left: 40px;
+    margin: 20px;
+}
+.titulo{
+    padding: 30px;
+    width: 100%;
+    background-color: white;
+}
+.contenedores{
+    display: flex;
 }
  

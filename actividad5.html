@@ -6,51 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>actividad 5</title>
     <link rel="stylesheet" href="styles-5.css">
+    <script src="node.js" defer></script>
 </head>
 <body>
-    <div class="container_actividad">
-        <!-- <div class = "logo"></div> -->
-         <nav class="nav_main">
-            <ul class="nav_menu">
-                <li>
-                    <a href="./index.html">ACTIVIDAD 2</a>
-                </li>
-                <li>
-                    <a href="./actividad3.html" target="_blank">ACTIVIDAD 3</a>
-                </li>
-                <li>
-                    <a href="./actividad6.html">ACTIVIDAD 4</a>
-                </li>
-                <li>
-                    <a href="./actividad5.html">ACTIVIDAD 5</a>
-                </li>
-            </ul>			
-      </nav>		
+    <div class="titulo">
+        <h3>ejercicios actividades</h3>
     </div>
-    <div class="actividades">
-        <div class="container-videos">
-            <div class="primer-video">
-                <p> 1.creacion repositorio</p>
-                <video class="crear-repositorio" controls>
-                <source src="./images/creacion.ogv " type="video/ogg">
-                </video>
-            </div>
-            <div class="segundo-video">
-                <p> 2.clonacion repositorio</p>
-                <video class="crear-repositorio" controls>
-                <source src="./images/clonacion.ogv " type="video/ogg">
-                </video>
-            </div>
+    <div class="contenedores">
+        <div class="container_actividad">
+            <!-- <div class = "logo"></div> -->
+             <nav class="nav_main">
+                <ul class="nav_menu">
+                    <li>
+                        <a href="./index.html">ACTIVIDAD 2</a>
+                    </li>
+                    <li>
+                        <a href="./actividad3.html" target="_blank">ACTIVIDAD 3</a>
+                    </li>
+                    <li>
+                        <a href="./actividad6.html">ACTIVIDAD 4</a>
+                    </li>
+                    <li>
+                        <a href="./actividad5.html">ACTIVIDAD 5</a>
+                    </li>
+                    <li>
+                        <a href="./actividad7.html">ACTIVIDAD 7</a>
+                    </li>
+                    <li>
+                        <a href="./actividad8.html">ACTIVIDAD 8</a>
+                    </li>
+                    <li>
+                        <a href="./actividad9.html">ACTIVIDAD 9</a>
+                    </li>
+                </ul>			
+          </nav>		
         </div>
-        <div class="container-videos2">
-            <div class="tercer-video">
-                <p> 3.git branches</p>
-                <video class="crear-repositorio" controls>
-                <source src="./images/git-branches.ogv " type="video/ogg">
+        <div class="actividades">
+            <h2>listado ejercicios</h2><br>
+            <select id="video-select" onchange="showVideo()">
+                <option value="video17">creacion repositorio</option>
+                <option value="video18">clonacion repositorio</option>
+                <option value="video19">git branches</option>
+            </select><br><br>
+            <div id="video-container">
+                <video id="video-frame" width="720" height="560" controls>
+                    <source src="" type="video/ogg">
                 </video>
-            </div>
+            </div><br>
             <div class="imagen-flores">
-                <p> 4.git hub busca flores</p>
+                <p> git hub busca flores</p>
                 <div class="container-imagen">
                     <img src="./images/buscaflores.png" alt="" class="img-flores">&nbsp;
                     <a href="https://logicusername.github.io/busca-flores/" target="_blank">github pages</a>&nbsp;&nbsp;
