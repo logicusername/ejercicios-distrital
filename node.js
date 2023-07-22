@@ -49,7 +49,10 @@ function showVideo() {
       videoFrame.src = "./images/analytics.ogv";
    } else if (selectedValue === "video21") {
       videoFrame.src = "./images/consultas-sql.ogv";
+   } else if (selectedValue === "video22") {
+      videoFrame.src = "./images/api-6.ogv";
    }
+   
    // Mostrar el contenedor del video
    videoContainer.style.display = "block";
  }
